@@ -2,7 +2,7 @@ package sg.edu.nus.iss;
 
 public class Employee {
     private String staffNo;
-    private String fullName;
+    public String fullName;
     private String department;
     private String role;
     private String emailAddress;
@@ -59,8 +59,8 @@ public class Employee {
     }
     @Override
     public String toString() {
-        return "Employee [staffNo=" + staffNo + ", fullName=" + fullName + ", department=" + department + ", role="
-                + role + ", emailAddress=" + emailAddress + ", salary=" + salary + "]";
+        return "Employee [staffNo = " + staffNo + ", fullName = " + fullName + ", department = " + department + ", role = "
+                + role + ", emailAddress = " + emailAddress + ", salary = " + salary + "]";
     }
 
     
